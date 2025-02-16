@@ -11,6 +11,26 @@ A simple voice assistant built using **Streamlit**, **pyttsx3**, **SpeechRecogni
 - 🕒 **Time Announcement:** Tells the current time.
 - 🎵 **Music Playback:** Plays music from a specified folder.
 
+## Installation 📥
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/voice-assistant-david.git
+   cd voice-assistant-david
+   ```
+
+2. Install required dependencies:
+   ```bash
+   pip install streamlit pyttsx3 SpeechRecognition wikipedia requests
+   ```
+
+## Usage 🚀
+
+Run the Streamlit app:
+```bash
+streamlit run app.py
+```
+
 ### Commands You Can Use 🗣️
 - **"Search Wikipedia for <topic>"** - Fetches a summary from Wikipedia.
 - **"Open YouTube"** - Asks for a search term and opens YouTube.
@@ -28,4 +48,7 @@ A simple voice assistant built using **Streamlit**, **pyttsx3**, **SpeechRecogni
 
 ## Author 🧑‍💻
 Made with ❤️ by **Pooja Nayak** 🙋‍♀️
+
+---
+Happy Coding! 🚀
 
